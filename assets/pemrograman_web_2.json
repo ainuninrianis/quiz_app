@@ -1,0 +1,115 @@
+{
+  "judul": "Pemrograman Web 2",
+  "soal": [
+    {
+      "pertanyaan": "Apa fungsi utama dari HTML dalam pengembangan web?",
+      "opsi": [
+        "Mengatur tampilan halaman",
+        "Menangani logika program",
+        "Membuat struktur halaman",
+        "Mengatur database"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "HTML (HyperText Markup Language) digunakan untuk membuat struktur dasar halaman web."
+    },
+    {
+      "pertanyaan": "CSS digunakan untuk...",
+      "opsi": [
+        "Mengatur struktur dokumen",
+        "Menangani interaksi pengguna",
+        "Mengelola database",
+        "Mengatur tampilan dan gaya halaman web"
+      ],
+      "jawabanIndex": 3,
+      "penjelasan": "CSS (Cascading Style Sheets) digunakan untuk mengatur tampilan dan desain halaman web."
+    },
+    {
+      "pertanyaan": "JavaScript biasanya digunakan untuk...",
+      "opsi": [
+        "Mempercepat loading server",
+        "Memberi interaktivitas pada halaman web",
+        "Menampilkan teks",
+        "Menampilkan gambar"
+      ],
+      "jawabanIndex": 1,
+      "penjelasan": "JavaScript memungkinkan halaman web menjadi dinamis dan interaktif."
+    },
+    {
+      "pertanyaan": "Apa itu DOM dalam konteks JavaScript?",
+      "opsi": [
+        "Data Object Manager",
+        "Document Object Model",
+        "Dynamic Option Mapping",
+        "Design Object Mapping"
+      ],
+      "jawabanIndex": 1,
+      "penjelasan": "DOM adalah representasi struktur HTML halaman yang dapat dimanipulasi melalui JavaScript."
+    },
+    {
+      "pertanyaan": "Framework yang populer untuk pengembangan front-end adalah...",
+      "opsi": [
+        "Laravel",
+        "Django",
+        "React",
+        "Node.js"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "React adalah pustaka JavaScript yang sangat populer untuk pengembangan UI dinamis."
+    },
+    {
+      "pertanyaan": "Apa itu responsif dalam desain web?",
+      "opsi": [
+        "Mampu berjalan di server",
+        "Bisa diakses dengan koneksi lambat",
+        "Menyesuaikan tampilan untuk berbagai perangkat",
+        "Menggunakan warna cerah"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "Desain responsif memastikan tampilan web optimal di berbagai ukuran layar, seperti HP, tablet, dan desktop."
+    },
+    {
+      "pertanyaan": "Apa kegunaan tag <form> dalam HTML?",
+      "opsi": [
+        "Menambahkan gambar",
+        "Menampilkan judul",
+        "Mengirim data ke server",
+        "Menghubungkan antar halaman"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "<form> digunakan untuk menangani input dan mengirim data pengguna ke server."
+    },
+    {
+      "pertanyaan": "Apa itu API dalam pemrograman web?",
+      "opsi": [
+        "Antarmuka penghubung antar sistem atau aplikasi",
+        "Database penyimpanan",
+        "Desain UI",
+        "Program pengolah data lokal"
+      ],
+      "jawabanIndex": 0,
+      "penjelasan": "API (Application Programming Interface) memungkinkan pertukaran data antar aplikasi atau layanan."
+    },
+    {
+      "pertanyaan": "Peran JavaScript fetch() adalah...",
+      "opsi": [
+        "Mengambil data dari server secara asynchronous",
+        "Menampilkan grafik",
+        "Mengatur layout halaman",
+        "Menyimpan data di browser"
+      ],
+      "jawabanIndex": 0,
+      "penjelasan": "fetch() digunakan untuk mengambil data dari API atau server tanpa me-refresh halaman."
+    },
+    {
+      "pertanyaan": "Apa itu hosting dalam pengembangan web?",
+      "opsi": [
+        "Menyimpan file website agar bisa diakses online",
+        "Membuat user interface",
+        "Menulis backend logic",
+        "Menentukan warna halaman web"
+      ],
+      "jawabanIndex": 0,
+      "penjelasan": "Hosting menyediakan server agar website dapat diakses melalui internet."
+    }
+  ]
+}

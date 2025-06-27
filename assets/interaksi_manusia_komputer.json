@@ -1,0 +1,115 @@
+{
+  "judul": "Interaksi Manusia dan Komputer",
+  "soal": [
+    {
+      "pertanyaan": "Apa tujuan utama dari Interaksi Manusia dan Komputer (IMK)?",
+      "opsi": [
+        "Mempercepat pemrosesan data",
+        "Meningkatkan keamanan jaringan",
+        "Meningkatkan kemudahan dan kenyamanan pengguna dalam menggunakan sistem",
+        "Meningkatkan spesifikasi perangkat keras"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "IMK bertujuan menciptakan antarmuka yang mudah digunakan dan efisien bagi manusia."
+    },
+    {
+      "pertanyaan": "Apa itu user interface?",
+      "opsi": [
+        "Sistem operasi",
+        "Antarmuka pengguna untuk berinteraksi dengan komputer",
+        "Prosesor komputer",
+        "Bahasa pemrograman tingkat rendah"
+      ],
+      "jawabanIndex": 1,
+      "penjelasan": "User interface adalah elemen visual dan interaksi yang digunakan untuk berkomunikasi dengan sistem."
+    },
+    {
+      "pertanyaan": "Prinsip penting dalam desain antarmuka adalah...",
+      "opsi": [
+        "Kompleks dan fleksibel",
+        "Estetis dan minimalis",
+        "Selalu merah dan besar",
+        "Menampilkan semua data sekaligus"
+      ],
+      "jawabanIndex": 1,
+      "penjelasan": "Desain yang estetis dan minimalis mempermudah pengguna fokus dan menghindari kebingungan."
+    },
+    {
+      "pertanyaan": "Apa peran usability dalam IMK?",
+      "opsi": [
+        "Mengatur jaringan",
+        "Mengukur kinerja CPU",
+        "Menilai kemudahan penggunaan sistem",
+        "Menentukan ukuran layar"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "Usability adalah sejauh mana sistem mudah dipelajari dan digunakan oleh pengguna."
+    },
+    {
+      "pertanyaan": "Apa itu affordance dalam antarmuka?",
+      "opsi": [
+        "Kemampuan tombol untuk ditekan atau digunakan",
+        "Penyimpanan data sementara",
+        "Kesesuaian warna latar belakang",
+        "Kompatibilitas sistem operasi"
+      ],
+      "jawabanIndex": 0,
+      "penjelasan": "Affordance adalah isyarat visual yang menunjukkan fungsi suatu elemen."
+    },
+    {
+      "pertanyaan": "Apa itu prototype dalam IMK?",
+      "opsi": [
+        "Final release dari sistem",
+        "Dokumentasi sistem",
+        "Model awal sistem untuk pengujian",
+        "Skrip bahasa pemrograman"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "Prototype adalah simulasi awal sistem yang digunakan untuk pengujian dan evaluasi antarmuka."
+    },
+    {
+      "pertanyaan": "Heuristic evaluation digunakan untuk...",
+      "opsi": [
+        "Pengujian kode program",
+        "Evaluasi antarmuka berdasarkan prinsip desain",
+        "Menentukan tingkat enkripsi data",
+        "Mempercepat proses loading website"
+      ],
+      "jawabanIndex": 1,
+      "penjelasan": "Heuristic evaluation menilai antarmuka berdasarkan prinsip seperti konsistensi, umpan balik, dan keterpahaman."
+    },
+    {
+      "pertanyaan": "Feedback dalam antarmuka berfungsi untuk...",
+      "opsi": [
+        "Menampilkan iklan",
+        "Memberi respons terhadap aksi pengguna",
+        "Menentukan bandwidth",
+        "Mengatur resolusi layar"
+      ],
+      "jawabanIndex": 1,
+      "penjelasan": "Feedback memberi tahu pengguna bahwa sistem sedang merespons atau memproses aksi mereka."
+    },
+    {
+      "pertanyaan": "Contoh sistem berbasis gesture adalah...",
+      "opsi": [
+        "Command prompt",
+        "Touchscreen dengan swipe dan pinch",
+        "Text editor",
+        "Scanner barcode"
+      ],
+      "jawabanIndex": 1,
+      "penjelasan": "Gesture interface memungkinkan interaksi lewat gerakan seperti swipe dan pinch."
+    },
+    {
+      "pertanyaan": "Apa dampak dari overloading informasi dalam UI?",
+      "opsi": [
+        "Memudahkan pengguna memilih opsi",
+        "Meningkatkan kecepatan penggunaan",
+        "Membingungkan dan memperlambat pengguna",
+        "Meningkatkan resolusi layar"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "Terlalu banyak informasi membuat pengguna kewalahan, kesulitan fokus, dan memperlambat interaksi."
+    }
+  ]
+}

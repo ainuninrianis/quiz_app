@@ -1,0 +1,60 @@
+{
+  "judul": "Rekayasa Perangkat Lunak",
+  "soal": [
+    {
+      "pertanyaan": "Apa tujuan utama dari rekayasa perangkat lunak?",
+      "opsi": [
+        "Membuat perangkat keras",
+        "Mengatur sistem jaringan",
+        "Mengembangkan perangkat lunak secara terstruktur",
+        "Menghapus bug dari komputer"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "Rekayasa perangkat lunak bertujuan mengembangkan software dengan pendekatan sistematis, terukur, dan terstruktur."
+    },
+    {
+      "pertanyaan": "Apa yang dimaksud dengan SDLC dalam rekayasa perangkat lunak?",
+      "opsi": [
+        "Software Development Life Cycle",
+        "System Design Logic Control",
+        "Software Data Logic Control",
+        "System Deployment Life Cycle"
+      ],
+      "jawabanIndex": 0,
+      "penjelasan": "SDLC adalah proses sistematis untuk merancang, mengembangkan, dan memelihara perangkat lunak."
+    },
+    {
+      "pertanyaan": "Metode yang cocok untuk proyek kecil dan dinamis adalah...",
+      "opsi": [
+        "Waterfall",
+        "Agile",
+        "V-Model",
+        "Prototype"
+      ],
+      "jawabanIndex": 1,
+      "penjelasan": "Metode Agile cocok karena fleksibel terhadap perubahan dan cepat beradaptasi."
+    },
+    {
+      "pertanyaan": "Apa itu debugging?",
+      "opsi": [
+        "Menulis kode baru",
+        "Memperbaiki kesalahan dalam kode",
+        "Menjalankan program",
+        "Mendesain antarmuka"
+      ],
+      "jawabanIndex": 1,
+      "penjelasan": "Debugging adalah proses menemukan dan memperbaiki bug dalam program."
+    },
+    {
+      "pertanyaan": "UML merupakan singkatan dari...",
+      "opsi": [
+        "Unified Modeling Language",
+        "User Management Language",
+        "Universal Machine Language",
+        "Unified Machine Logic"
+      ],
+      "jawabanIndex": 0,
+      "penjelasan": "UML adalah standar visual untuk memodelkan sistem perangkat lunak."
+    }
+  ]
+}

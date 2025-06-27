@@ -1,0 +1,115 @@
+{
+  "judul": "Pemrograman Mobile",
+  "soal": [
+    {
+      "pertanyaan": "Apa itu Flutter dalam pengembangan mobile?",
+      "opsi": [
+        "Framework untuk membuat aplikasi desktop",
+        "Bahasa markup",
+        "Framework untuk pengembangan aplikasi mobile cross-platform",
+        "Sistem operasi mobile"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "Flutter adalah framework dari Google yang digunakan untuk membuat aplikasi mobile, web, dan desktop dengan satu basis kode."
+    },
+    {
+      "pertanyaan": "Bahasa utama yang digunakan dalam Flutter adalah...",
+      "opsi": [
+        "Java",
+        "Dart",
+        "Kotlin",
+        "Swift"
+      ],
+      "jawabanIndex": 1,
+      "penjelasan": "Flutter menggunakan bahasa pemrograman Dart yang dikembangkan oleh Google."
+    },
+    {
+      "pertanyaan": "Widget di Flutter digunakan untuk...",
+      "opsi": [
+        "Menentukan struktur dan tampilan antarmuka",
+        "Menyimpan data pengguna",
+        "Mengatur keamanan aplikasi",
+        "Mengakses API eksternal"
+      ],
+      "jawabanIndex": 0,
+      "penjelasan": "Semua elemen di Flutter, baik visual maupun fungsional, adalah widget."
+    },
+    {
+      "pertanyaan": "Apa itu hot reload di Flutter?",
+      "opsi": [
+        "Menginstal ulang aplikasi",
+        "Mengembalikan ke kode sebelumnya",
+        "Menjalankan ulang emulator",
+        "Memperbarui UI tanpa memulai ulang aplikasi"
+      ],
+      "jawabanIndex": 3,
+      "penjelasan": "Hot reload mempercepat pengembangan dengan memperbarui tampilan tanpa restart aplikasi penuh."
+    },
+    {
+      "pertanyaan": "StatefulWidget berbeda dari StatelessWidget karena...",
+      "opsi": [
+        "Tidak memiliki build method",
+        "Tidak dapat digunakan dalam layout",
+        "Memiliki state yang dapat berubah",
+        "Tidak dapat merender UI"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "StatefulWidget memiliki state yang dinamis dan dapat berubah saat aplikasi berjalan."
+    },
+    {
+      "pertanyaan": "Fungsi setState() dalam StatefulWidget adalah...",
+      "opsi": [
+        "Mengatur routing",
+        "Memuat gambar",
+        "Memberi gaya tampilan",
+        "Memicu rebuild UI saat state berubah"
+      ],
+      "jawabanIndex": 3,
+      "penjelasan": "setState memberi tahu Flutter bahwa state telah berubah dan UI perlu diperbarui."
+    },
+    {
+      "pertanyaan": "Apa itu Navigator di Flutter?",
+      "opsi": [
+        "Plugin untuk keamanan",
+        "Sistem database lokal",
+        "Pengatur perpindahan antar layar",
+        "Komponen untuk form input"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "Navigator digunakan untuk berpindah antar layar (route) dalam aplikasi Flutter."
+    },
+    {
+      "pertanyaan": "Metode umum untuk mengambil data async dalam Flutter adalah...",
+      "opsi": [
+        "await & async",
+        "switch & case",
+        "main() function",
+        "map() & reduce()"
+      ],
+      "jawabanIndex": 0,
+      "penjelasan": "Kata kunci async dan await digunakan untuk mengelola operasi asynchronous di Dart."
+    },
+    {
+      "pertanyaan": "Plugin digunakan dalam Flutter untuk...",
+      "opsi": [
+        "Mengatur routing internal",
+        "Menentukan warna tema",
+        "Menambahkan fungsi native seperti kamera atau lokasi",
+        "Mengganti layout antarmuka"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "Plugin Flutter memberikan akses ke API platform seperti kamera, GPS, atau penyimpanan lokal."
+    },
+    {
+      "pertanyaan": "Pustaka yang umum digunakan untuk manajemen state di Flutter adalah...",
+      "opsi": [
+        "http",
+        "get_it",
+        "provider",
+        "path_provider"
+      ],
+      "jawabanIndex": 2,
+      "penjelasan": "Provider adalah pustaka Flutter yang populer untuk manajemen state secara efisien."
+    }
+  ]
+}

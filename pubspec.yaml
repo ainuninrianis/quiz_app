@@ -1,0 +1,29 @@
+name: quiz_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.0-169.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.3
+  cloud_firestore: ^4.15.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/interaksi_manusia_komputer.json
+    - assets/pemrograman_mobile.json
+    - assets/pemrograman_web_2.json
+    - assets/rekayasa_perangkat_lunak.json
+    - assets/gambar-1.jpg
