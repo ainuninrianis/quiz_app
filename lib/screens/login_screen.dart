@@ -14,7 +14,9 @@ class _LoginScreenState extends State<LoginScreen> {
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
   final _authService = AuthService();
+
   bool isLoading = false;
+  bool _obscurePassword = true;
 
   @override
   void dispose() {
@@ -64,17 +66,16 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // Gambar quiz di dalam lingkaran bundar
               CircleAvatar(
                 radius: 50,
                 backgroundColor: Colors.white,
-                backgroundImage: const AssetImage('assets/gambar-1.jpg'), // Ganti sesuai nama file kamu
+                backgroundImage: const AssetImage('assets/gambar-1.jpg'),
               ),
               const SizedBox(height: 24),
               Text(
                 "Selamat datang di Aplikasi Quiz",
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                      color: Colors.black87,
+                      color: Colors.white,
                       fontWeight: FontWeight.bold,
                     ),
                 textAlign: TextAlign.center,
@@ -82,32 +83,69 @@ class _LoginScreenState extends State<LoginScreen> {
               const SizedBox(height: 8),
               const Text(
                 "Silakan login untuk mulai mengerjakan quiz.",
-                style: TextStyle(color: Colors.black54),
+                style: TextStyle(color: Colors.white70),
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 32),
+
+              // ======== EMAIL ========
               TextField(
                 controller: emailController,
+                keyboardType: TextInputType.emailAddress,
                 decoration: const InputDecoration(
                   labelText: "Email",
+                  labelStyle: TextStyle(color: Colors.black),
+                  floatingLabelStyle: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  prefixIcon: Icon(Icons.email, color: Colors.black),
+                  isDense: true,
+                  contentPadding: EdgeInsets.fromLTRB(16, 24, 16, 16),
                   border: OutlineInputBorder(),
                   filled: true,
                   fillColor: Colors.white,
                 ),
-                keyboardType: TextInputType.emailAddress,
               ),
+
               const SizedBox(height: 16),
+
+              // ======== PASSWORD ========
               TextField(
                 controller: passwordController,
-                decoration: const InputDecoration(
+                obscureText: _obscurePassword,
+                decoration: InputDecoration(
                   labelText: "Password",
-                  border: OutlineInputBorder(),
+                  labelStyle: const TextStyle(color: Colors.black),
+                  floatingLabelStyle: const TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  prefixIcon: const Icon(Icons.lock, color: Colors.black),
+                  isDense: true,
+                  contentPadding: const EdgeInsets.fromLTRB(16, 24, 16, 16),
+                  border: const OutlineInputBorder(),
                   filled: true,
                   fillColor: Colors.white,
+                  suffixIcon: IconButton(
+                    icon: Icon(
+                      _obscurePassword
+                          ? Icons.visibility_off
+                          : Icons.visibility,
+                      color: Colors.grey,
+                    ),
+                    onPressed: () {
+                      setState(() {
+                        _obscurePassword = !_obscurePassword;
+                      });
+                    },
+                  ),
                 ),
-                obscureText: true,
               ),
+
               const SizedBox(height: 24),
+
+              // ======== LOGIN BUTTON ========
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
@@ -115,6 +153,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.blueAccent,
                     padding: const EdgeInsets.symmetric(vertical: 14),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
                   ),
                   child: isLoading
                       ? const SizedBox(
@@ -125,9 +166,13 @@ class _LoginScreenState extends State<LoginScreen> {
                             strokeWidth: 2,
                           ),
                         )
-                      : const Text("Login"),
+                      : const Text(
+                          "Login",
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
                 ),
               ),
+
               const SizedBox(height: 12),
               TextButton(
                 onPressed: () {
@@ -136,7 +181,10 @@ class _LoginScreenState extends State<LoginScreen> {
                     MaterialPageRoute(builder: (_) => const RegisterScreen()),
                   );
                 },
-                child: const Text("Belum punya akun? Daftar di sini"),
+                child: const Text(
+                  "Belum punya akun? Daftar di sini",
+                  style: TextStyle(color: Colors.white70),
+                ),
               ),
             ],
           ),

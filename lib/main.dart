@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:quiz_app/screens/topik_detail_screen.dart';
 
 import 'screens/login_screen.dart';
 import 'screens/home_screen.dart';
@@ -73,8 +74,15 @@ class MyApp extends StatelessWidget {
             );
           }
           return snapshot.hasData ? const HomeScreen() : const LoginScreen();
+          
         },
       ),
+      routes: {
+        '/home': (context) => const HomeScreen(),
+        '/login': (context) => const LoginScreen(),
+
+      },
     );
   }
 }
+
